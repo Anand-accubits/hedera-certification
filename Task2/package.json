@@ -1,0 +1,18 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:createToken": "node scripts/createToken.js ",
+    "start:transferToken": "node scripts/transferToken.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "2.19.2",
+    "dotenv": "16.0.3"
+  }
+}
